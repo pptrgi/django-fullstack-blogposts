@@ -1,0 +1,134 @@
+*, ::before, ::after{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.homeContainer{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+/*	background-color: #5267DF;*/
+/*	background-color: #9194A2;*/
+	background-image: url("/static/image4.jpg");
+	background-color: rgba(255, 255, 255, 0.5);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: lighten;
+	object-fit: cover;
+	position: relative;backface-visibility: ;
+}
+
+.containerContent {
+	position: absolute;
+	right: 1rem;
+	top: 28vh;
+	padding: 5rem 1rem;
+}
+
+.header {
+	max-width: 550px;
+	font-weight: bold;
+	font-size: 3.25rem;
+	color: #5267DF;
+	margin-bottom: 2rem;
+	letter-spacing: 0.5px;
+}
+
+.para {
+	max-width: 550px;
+	font-size: 1.25rem;
+	leading: 4px;
+	color: #9194A2;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 3rem;
+	padding: 1.5rem 2rem;
+/*	background-color: white;*/
+/*	z-index: 1000;*/
+}
+
+.navList{
+	display: flex;
+	justify-content: space-evenly;
+	column-gap: 2rem;
+	font-size: 1.125rem;
+	font-weight: 400;
+}
+
+.navHeader {
+	font-size: 1.5rem;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+.loginBtn {
+	padding: 1rem 1.75rem;
+	background-color: #5267DF ;
+	border-radius: 10px;
+	color: white;
+	letter-spacing: 0.75px;
+}
+.loginBtn:hover{
+	outline: 2px solid #5267DF;
+	outline-offset: 2px;
+}
+
+.registerBtn {
+	padding: 1rem 1.75rem;
+	background-color: #9194A2 ;
+	border-radius: 10px;
+	color: white;
+	letter-spacing: 0.75px;
+}
+.registerBtn:hover{
+	outline: 2px solid #9194A2;
+	outline-offset: 2px;
+}
+
+.logoutBtn {
+	padding: 1rem 1.75rem;
+	background-color: #9194A2 ;
+	border-radius: 10px;
+	color: white;
+	letter-spacing: 0.75px;
+}
+
+.logoutBtn:hover{
+	outline: 2px solid #9194A2;
+	outline-offset: 2px;
+}
+
+.containerBtn {
+	position: absolute;
+	top: 80vh;
+	right: 40%;
+}
+
+.viewPostsBtn{
+	font-size: 1.5rem;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	padding: 1rem 2rem;
+	background-color: #5267DF;
+	color: white;
+	outline: 3px solid #5267DF;
+	outline-offset: 2px;
+	/*border: 3px;
+	border-color: #5267DF;
+	border-style: solid;*/
+}
+
+.viewPostsBtn:hover {
+	outline-offset: 3px;
+}
+
