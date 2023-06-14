@@ -1,6 +1,13 @@
 # Django Fullstack Application for Blog Posts
 
-This is a Django-based web application that allows users to perform CRUD (Create, Read, Update, Delete) operations on blog posts. The application includes models for blog posts, views to render templates and handle HTTP requests, and forms to handle user input. 
+A Django fullstack application that includes the basic structure and functionality for a Django-based web application allowing users to perform CRUD (Create, Read, Update, Delete) operations on blog posts. The application includes models for blog posts, views to render templates and handle HTTP requests, and forms to handle user input.
+
+It uses the Django's LoginView class to display the login form and process the registered user's data and authenticate them.
+
+For blog posts protection, users can view their blogs when they sign in, and they need to be the owners of posts they perform get, edit or delete operations on. Posting is available for any signed in user.
+
+There's still a lot of work to be done, but this sets the foundation for the project.
+
 
 The main features of the application include:
 
